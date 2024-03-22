@@ -1,0 +1,62 @@
+.Hero {
+
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+    padding: 10rem 5rem;
+    color: #fff;
+
+    &-info {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    &-imgContainer {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &-img {
+
+        object-fit: center;
+        width: 70%;
+        height: auto;
+
+
+    }
+
+    &-frase {
+        font-size: 2em;
+        font-family: cursive;
+        color: #fac654;
+    }
+
+    &-title {
+        font-size: 2.5em;
+        color: white;
+        font-family: bold;
+        letter-spacing: 1px;
+    }
+
+    &-subtitle {
+        font-size: 1.5em;
+        color: white;
+
+    }
+
+    &-buttonContainer {
+        display: flex;
+        gap: 1rem;
+        margin: 1rem 0;
+
+    }
+}

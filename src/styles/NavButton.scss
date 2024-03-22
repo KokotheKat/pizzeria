@@ -1,0 +1,19 @@
+.NavButton {
+  width: 5rem;
+  height: 100%;
+  color: #808080;
+  font-size: .8em;
+  border: none;
+  background-color: transparent;
+  transition: color 0.2s ease;
+  -webkit-transition: color 0.2s ease;
+  -moz-transition: color 0.2s ease;
+  -ms-transition: color 0.2s ease;
+  -o-transition: color 0.2s ease;
+
+  &:hover {
+    color: #fac564;
+    cursor: pointer;
+  }
+
+}
