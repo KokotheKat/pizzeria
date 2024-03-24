@@ -1,24 +1,27 @@
 .Hero {
-
+    padding: 2rem;
+gap: 1rem;
     overflow: hidden;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
 
-    padding: 10rem 5rem;
     color: #fff;
 
     &-info {
         display: flex;
         flex-direction: column;
-        width: 50%;
+        width: 100%;
         gap: 1rem;
         justify-content: center;
     }
 
     &-imgContainer {
-        width: 50%;
+        margin: 1rem 0;
+       max-width: 600px;
+       width: 100%;
         height: 100%;
         display: flex;
         align-items: center;
@@ -27,30 +30,30 @@
 
     &-img {
 
-        object-fit: center;
-        width: 70%;
-        height: auto;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
 
 
     }
 
     &-frase {
-        font-size: 2em;
-        font-family: cursive;
-        color: #fac654;
-    }
-
-    &-title {
+        
         font-size: 2.5em;
         color: white;
         font-family: bold;
         letter-spacing: 1px;
     }
 
+    &-title {font-size: 2em;
+        font-family: cursive;
+        color: #fac654;
+    }
+
     &-subtitle {
         font-size: 1.5em;
         color: white;
-
+text-align: center;
     }
 
     &-buttonContainer {

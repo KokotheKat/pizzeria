@@ -2,7 +2,10 @@ import '../styles/NavButton.scss';
 
 export const NavButton = ({ children }) => {
   return (
-    <button className='NavButton'>{children}</button>
+    <a className='NavButtonLink' href="#">
+      <button className='NavButton'>{children}</button>
+
+    </a>
   );
 };
 
