@@ -1,0 +1,16 @@
+.Menu {
+    display: flex;
+    gap: 2rem;
+    
+    
+    flex-direction: column;
+
+    &-Title {
+        font-size: 1.5em;
+    }
+
+    &-Description {
+        font-size: 1.2em;
+        color: #808080;
+    }
+}
