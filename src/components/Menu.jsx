@@ -14,8 +14,8 @@ export const Menu = () => {
             </p>
             {/* <MenuCard/> */}
             {
-                data.map(item=>(
-                    <MenuCard {...item}/>
+                data.map((item,i)=>(
+                    <MenuCard key={i}{...item}/>
 
 
                 ))

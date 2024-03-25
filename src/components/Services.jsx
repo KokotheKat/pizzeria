@@ -4,6 +4,8 @@ import { fas } from '@fortawesome/free-solid-svg-icons'; // Importa todos los í
 
 import '../styles/Services.scss';
 
+
+
 export const Services = () => {
     return (
         <div className='Service'>
