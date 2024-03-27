@@ -2,7 +2,7 @@ import React from 'react'
 import "../styles/Menu.scss"
 import { MenuCard } from './MenuCard'
 // const Menu =[{image="src/assets/pizzas/pizza-1.jpg"}]
-import data from '../data.json'
+import {pizzas} from '../data.json'
 export const Menu = () => {
     return (
         <div className='Menu'>
@@ -14,7 +14,7 @@ export const Menu = () => {
             </p>
             {/* <MenuCard/> */}
             {
-                data.map((item,i)=>(
+                pizzas.map((item,i)=>(
                     <MenuCard key={i}{...item}/>
 
 

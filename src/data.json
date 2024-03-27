@@ -1,4 +1,5 @@
-[
+{
+  "pizzas": [
     {
       "imagen": "src/assets/pizzas/pizza-1.jpg",
       "title": "Pizza Margarita",
@@ -47,5 +48,65 @@
       "subtitle": "Salsa de tomate, uwuzzarela, pepperoni, salchicha italiana y jamón",
       "price": "11.95"
     }
+  ],
+  "pastas": [
+    {
+      "imagen": "src/assets/pastas/pasta-1.jpg",
+      "title": "Spaghetti Carbonara",
+      "subtitle": "Spaghetti con salsa carbonara y trozos de panceta",
+      "price": "12.50"
+    },
+    {
+      "imagen": "src/assets/pastas/pasta-2.jpg",
+      "title": "Penne Arrabiata",
+      "subtitle": "Penne con salsa de tomate picante y ajo",
+      "price": "11.75"
+    },
+    {
+      "imagen": "src/assets/pastas/pasta-3.jpg",
+      "title": "Lasagna Bolognesa",
+      "subtitle": "Lasagna con salsa boloñesa y queso ricotta",
+      "price": "13.25"
+    }
+  ],
+  "drinks": [
+    {
+      "imagen": "src/assets/drinks/drink-1.jpg",
+      "title": "Coca-Cola",
+      "subtitle": "Refresco de cola",
+      "price": "2.50"
+    },
+    {
+      "imagen": "src/assets/drinks/drink-2.jpg",
+      "title": "Limón Soda",
+      "subtitle": "Refresco de limón con soda",
+      "price": "3.00"
+    },
+    {
+      "imagen": "src/assets/drinks/drink-3.jpg",
+      "title": "Café Americano",
+      "subtitle": "Café americano caliente",
+      "price": "2.00"
+    }
+  ],
+  "burgers": [
+    {
+      "imagen": "src/assets/burgers/burger-1.jpg",
+      "title": "Hamburguesa Clásica",
+      "subtitle": "Carne de res, lechuga, tomate y queso cheddar",
+      "price": "7.50"
+    },
+    {
+      "imagen": "src/assets/burgers/burger-2.jpg",
+      "title": "Hamburguesa BBQ",
+      "subtitle": "Carne de res, salsa barbacoa, cebolla caramelizada y queso suizo",
+      "price": "9.00"
+    },
+    {
+      "imagen": "src/assets/burgers/burger-3.jpg",
+      "title": "Hamburguesa Vegetariana",
+      "subtitle": "Patty de lentejas, aguacate, lechuga y tomate",
+      "price": "8.75"
+    }
   ]
-  
+}
