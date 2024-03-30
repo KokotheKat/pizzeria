@@ -1,6 +1,6 @@
 import React from 'react'
 import "../styles/CategoryItem.scss"
-export const CategoryItem = ({ imagen = "src/assets/pizzas/pizza-1.jpg", title = "lorem", subtitle = "lorem-ipsum", price = "0000.00", button = "ORDER" }) => {
+export const CategoryItem = ({ imagen = "src/assets/pizzas/pizza-1.jpg", title = "lorem", subtitle = "lorem-ipsum", price = "0000.00", button = "Order" }) => {
     return (
         <div className='CategoryItem' >
 
@@ -19,7 +19,7 @@ export const CategoryItem = ({ imagen = "src/assets/pizzas/pizza-1.jpg", title =
                         {`$${price}`}
                     </span>
                     <button className='CategoryItem-OrderButton'>
-                       {button.toLowerCase()}
+                       {button}
                     </button>
                 
             </div>

@@ -4,7 +4,6 @@ import { fas } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const NavButtonContainer = () => {
-  
 
   const handleNavButtonToggle = () => {
     setNavIsOpen(!navIsOpen)
@@ -20,10 +19,10 @@ export const NavButtonContainer = () => {
           handleNavButtonToggle();
         }}
       >
-        <FontAwesomeIcon icon={fas.faBars}/>
+        <FontAwesomeIcon icon={fas.faBars} />
       </button>
       {
-        <div  className={`NavButtonList ${navIsOpen ? "isActive" : ""}`}>
+        <div className={`NavButtonList ${navIsOpen ? "isActive" : ""}`}>
           <NavButton setNavIsOpen={setNavIsOpen} url={"/"}>Home</NavButton>
           <NavButton setNavIsOpen={setNavIsOpen} url={"/menu"}>Menu</NavButton>
           <NavButton setNavIsOpen={setNavIsOpen} url={"/services"}>Services</NavButton>

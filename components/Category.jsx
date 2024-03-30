@@ -42,7 +42,7 @@ else if (CategorySelection===4) {
 
 return (
 
-        <div className='Category'>
+        <div className='Category' id='category'>
             <div className='Category-FoodButtonsContainer'>
                 <button className='Category-FoodButton' onClick={handlePizzaButton}>Pizza</button>
                 <button className='Category-FoodButton' onClick={handleDrinksButton}>Drinks</button>

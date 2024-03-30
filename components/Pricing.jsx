@@ -1,7 +1,7 @@
 import React from 'react'
 import "../styles/Pricing.scss"
 import { PricingCard } from './PricingCard'
-import {pizzas} from '../data.json'
+import { pizzas } from '../data.json'
 export const Pricing = () => {
   return (
     <div className='Pricing'>
@@ -16,18 +16,21 @@ export const Pricing = () => {
           </div>
 
         </div> */}
-<div className='Pricing-Line'></div>
-<div className='Pricing-SmallSquare'></div>
-<div className='Pricing-Square'></div>
-<div className='Pricing-SmallSquare'></div>
-<div className='Pricing-Line' ></div>
+        <div className='Pricing-Line'></div>
+        <div className='Pricing-SmallSquare'></div>
+        <div className='Pricing-Square'></div>
+        <div className='Pricing-SmallSquare'></div>
+        <div className='Pricing-Line' ></div>
       </div>
       <p className='Pricing-Subtitle'>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos, animi?
       </p>
-      {pizzas.map((pizza, i)=>(
-      <PricingCard key={i}{...pizza} />
-))}
+      <div className='Pricing-PricingCardContainer'>
+
+        {pizzas.map((pizza, i) => (
+          <PricingCard key={i}{...pizza} />
+        ))}
+      </div>
     </div>
   )
 }

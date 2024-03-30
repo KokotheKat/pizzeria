@@ -6,7 +6,7 @@ import { fas } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const NavBar = () => {
-  const [navIsOpen, setNavIsOpen] = useState(false);
+  const [navIsOpen, setNavIsOpen] = useState(true);
 
   const navRef = useRef();
 
