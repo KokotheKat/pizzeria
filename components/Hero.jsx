@@ -21,7 +21,7 @@ export const Hero = () => {
         <a href="#menu" className="Hero-ButtonLink"><button className="Hero-Button" >View Menu</button></a>
       </div>
     </div>
-    // holaaaaaaaaa
+    // holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
     // </div>
   )
 }
