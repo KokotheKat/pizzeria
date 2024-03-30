@@ -5,8 +5,9 @@
   overflow: hidden; /* Cambiado a 'hidden' en lugar de 'scroll' */
   align-items: center;
   display: flex;
-
+z-index: -1;
   user-select: none;
+
   &-ImgContainer {
     height: 100%;
     display: flex;

@@ -1,5 +1,6 @@
 import { Button } from "./Button"
 import "../styles/Hero.scss"
+import { Carousel } from "./Carousel"
 
 
 export const Hero = () => {
@@ -12,7 +13,9 @@ export const Hero = () => {
             <h2 className="Hero-title"> Lorem ipsum dolor sit!</h2>
             <p className="Hero-subtitle"> Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
             <div className="Hero-imgContainer">
-            <img className="Hero-img" src="src/assets/plato.png" alt="plato.png" />
+            {/* <img className="Hero-img" src="src/assets/plato.png" alt="plato.png" /> */}
+        <Carousel />
+            
              </div> 
             <div className="Hero-buttonContainer">
                 <Button>a</Button>

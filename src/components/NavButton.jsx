@@ -1,11 +1,12 @@
+import { Link } from 'react-router-dom';
 import '../styles/NavButton.scss';
 
-export const NavButton = ({ children }) => {
+export const NavButton = ({ url,children }) => {
   return (
-    <a className='NavButtonLink' href="#">
+    <Link className='NavButtonLink' to={url}>
       <button className='NavButton'>{children}</button>
 
-    </a>
+    </Link>
   );
 };
 

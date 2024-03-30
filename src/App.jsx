@@ -1,38 +1,36 @@
-import {Carousel} from "./components/Carousel";
-import { Category } from "./components/Category";
-import { ContactUs } from "./components/ContactUs";
-import { Footer } from "./components/Footer";
-import { Hero } from "./components/Hero";
-import { Info } from "./components/Info";
-import { Menu } from "./components/Menu";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 import { NavBar } from "./components/NavBar";
-import { News } from "./components/News";
-import { Pricing } from "./components/Pricing";
-import { PricingCard } from "./components/PricingCard";
-import { PricingCarousel } from "./components/PricingCarousel";
-
-import { Services } from "./components/Services";
-import { Stats } from "./components/Stats";
-import { Welcome } from "./components/Welcome";
+import { HomePage } from "./routes/HomePage";
+import { MenuPage } from "./routes/MenuPage";
+import { NewsPage } from "./routes/NewsPage";
+import { ServicesPage } from "./routes/ServicesPage";
+import { AboutUsPage } from "./routes/AboutUsPage";
+import { ContactPage } from "./routes/ContactPage";
+import { Footer } from "./components/Footer";
 
 export const App = () => {
   return (
-    <div>
+    <Router>
       <NavBar />
-      <div className="mainContainer">
-        <Hero></Hero>
-        <Info></Info>
-        <Welcome />
-        <Services />
-        <Menu />
-        <Pricing />
-        <Stats />
-        <Category />
-        <News />
-        <ContactUs />
-        <Footer />
-        <Carousel></Carousel>
+      <div className="MainContainer">
+
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/menu" element={<MenuPage />} />
+        <Route path="/services" element={<ServicesPage />} />
+        <Route path="/news" element={<NewsPage />} />
+        <Route path="/aboutus" element={<AboutUsPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="*" element={<Navigate to="/" />} />
+      </Routes>
       </div>
-    </div>
+    <Footer />
+
+    </Router>
   );
 };

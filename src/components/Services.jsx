@@ -20,13 +20,13 @@ export const Services = () => {
             </div>
             <div className='Service-Section'>
                 <div className='Service-BackgroundEfect'>
-                    <FontAwesomeIcon icon={fas.faPizzaSlice} className='Service-Icon' /></div>
+                    <FontAwesomeIcon icon={fas.faShop} className='Service-Icon' /></div>
                 <h3 className='Service-Subtitle'>Lorem, ipsum dolor.</h3>
                 <p className='Service-Description'>Lorem, ipsum dolor. Lorem, ipsum dolor. Lorem, ipsum dolor. Lorem, ipsum dolor.</p>
             </div>
             <div className='Service-Section'>
                 <div className='Service-BackgroundEfect'>
-                    <FontAwesomeIcon icon={fas.faPizzaSlice} className='Service-Icon' /></div>
+                    <FontAwesomeIcon icon={fas.faGifts} className='Service-Icon' /></div>
                 <h3 className='Service-Subtitle'>Lorem, ipsum dolor. Lorem, ipsum dolor. Lorem, ipsum dolor. Lorem, ipsum dolor. Lorem, ipsum dolor. Lorem, ipsum dolor.</h3>
                 <p className='Service-Description'>Lorem, ipsum dolor. Lorem, ipsum dolor. Lorem, ipsum dolor. Lorem, ipsum dolor. Lorem, ipsum dolor. Lorem, ipsum dolor.</p>
             </div>

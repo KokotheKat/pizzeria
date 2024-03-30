@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/Footer.scss";
-import { NewsCard } from "./NewsCard";
 import { FooterCard } from "./FooterCard";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram,faXTwitter,faFacebookF } from '@fortawesome/free-brands-svg-icons';

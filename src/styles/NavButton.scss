@@ -10,7 +10,7 @@
   -moz-transition: color 0.2s ease;
   -ms-transition: color 0.2s ease;
   -o-transition: color 0.2s ease;
-
+position: relative;
   &:hover {
     color: #fac564;
     cursor: pointer;
@@ -52,18 +52,19 @@
   height: 100vh;
   display: flex;
   background: rgb(0, 0, 0);
-  background: linear-gradient(180deg, rgba(18, 22, 24, 1) 5%, rgba(18, 22, 24,.1) 100%);
+  background: linear-gradient(180deg, rgba(18, 22, 24, 1) 5%, rgba(18, 22, 24,.9) 100%);
   left: 0;
   flex-direction: column;
   gap: 1rem;
   padding: 1rem 0rem;
   // transition: all .1s ease-out;
   visibility: hidden;
-  
+  z-index: 100;
 }
 
 .NavButtonLink {
   text-decoration: none;
+
 }
 
 .NavButton {

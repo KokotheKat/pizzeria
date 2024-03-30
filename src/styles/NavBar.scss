@@ -6,7 +6,10 @@
   flex-direction: row;
   align-items: center;
   padding: 0 15rem;
-  position: relative;
+  position: fixed;
+  z-index: 100;
+  margin-bottom: 5.5rem;  
+  top: 0;
   @media screen and (max-width:60rem){
   padding: 0 ;
 }
